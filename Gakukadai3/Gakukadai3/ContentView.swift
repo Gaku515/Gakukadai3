@@ -31,10 +31,10 @@ struct ContentView: View {
                 let switchAnswer1 = changeNum(number1) * (flag1 ? -1 : 1)
                 let switchAnswer2 = changeNum(number2) * (flag2 ? -1 : 1)
 
-                switchAnswerText1="\(switchAnswer1)"
-                switchAnswerText2="\(switchAnswer2)"
+                switchAnswerText1 = "\(switchAnswer1)"
+                switchAnswerText2 = "\(switchAnswer2)"
 
-                resultText="\(switchAnswer1 + switchAnswer2)"
+                resultText = "\(switchAnswer1 + switchAnswer2)"
             }
             HStack {
                 Text(switchAnswerText1)
